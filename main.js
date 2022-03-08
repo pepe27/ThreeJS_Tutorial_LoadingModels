@@ -218,6 +218,7 @@ class LoadModelDemo {
         './resources/dancer/', 'mouse.fbx', 'twerk.fbx', new THREE.Vector3(-18, 0, -10));
     this._LoadAnimatedModelAndPlay(
         './resources/dancer/', 'jolleen.fbx', 'hiphop.fbx', new THREE.Vector3(18, 0, -10));
+        //load more models here
     this._RAF();
   }
 
