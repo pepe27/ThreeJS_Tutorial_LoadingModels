@@ -208,12 +208,16 @@ class LoadModelDemo {
     this._previousRAF = null;
 
     this._LoadAnimatedModel();
-    // this._LoadAnimatedModelAndPlay(
-    //     './resources/dancer/', 'girl.fbx', 'dance.fbx', new THREE.Vector3(0, -1.5, 5));
-    // this._LoadAnimatedModelAndPlay(
-    //     './resources/dancer/', 'dancer.fbx', 'Silly Dancing.fbx', new THREE.Vector3(12, 0, -10));
-    // this._LoadAnimatedModelAndPlay(
-    //     './resources/dancer/', 'dancer.fbx', 'Silly Dancing.fbx', new THREE.Vector3(-12, 0, -10));
+    this._LoadAnimatedModelAndPlay(
+        './resources/dancer/', 'girl.fbx', 'dance.fbx', new THREE.Vector3(0, -1.5, 5));
+    this._LoadAnimatedModelAndPlay(
+        './resources/dancer/', 'dancer.fbx', 'Silly Dancing.fbx', new THREE.Vector3(12, 0, -10));
+    this._LoadAnimatedModelAndPlay(
+        './resources/dancer/', 'dancer.fbx', 'Silly Dancing.fbx', new THREE.Vector3(-12, 0, -10));
+    this._LoadAnimatedModelAndPlay(
+        './resources/dancer/', 'mouse.fbx', 'twerk.fbx', new THREE.Vector3(-18, 0, -10));
+    this._LoadAnimatedModelAndPlay(
+        './resources/dancer/', 'jolleen.fbx', 'hiphop.fbx', new THREE.Vector3(18, 0, -10));
     this._RAF();
   }
 
